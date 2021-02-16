@@ -29,6 +29,7 @@ else
 	echo "你选择的字体为 $font"
 fi
 sleep 1
+rm -rf AssOut
 
 #保存LIST
 mkdir BiliTmp
@@ -37,7 +38,7 @@ curl "http://bangumi.bilibili.com/web_api/get_ep_list?season_id=$sid" | jq > sea
 list=$(cat ./seasonlist.txt)
 echo $list|jq '.result[].cid' > cid.txt
 
-#下载弹幕xml
+#下载弹幕xm
 mkdir ../AssOut
 index=0
 for line in $(cat ./cid.txt)
