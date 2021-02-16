@@ -12,7 +12,7 @@
   
 3.打开b站的番剧视频页面，记下链接中ss后的数字
   - ```www.bilibili.com/bangumi/play/ss844/?from=search&seid=3312043637264681016```
-  例如这个链接中的ss**844** 
+  - 例如这个链接中的ss**844** 
 
 4.运行程序
   - ```./main.sh```
