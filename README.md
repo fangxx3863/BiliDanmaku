@@ -5,8 +5,8 @@
 2.安装curl、git、python3
 ## 使用方法
 1.下载main.sh脚本
-  - ```curl -L https://github.com/fangxx3863/BiliDanmaku/raw/main/main.sh -o main.sh```
-  - ```curl -L https://github.com/fangxx3863/BiliDanmaku/raw/main/main.sh -o macos.sh```
+  - Linux ```curl -L https://github.com/fangxx3863/BiliDanmaku/raw/main/main.sh -o main.sh```
+  - MacOSX ```curl -L https://github.com/fangxx3863/BiliDanmaku/raw/main/main.sh -o macos.sh```
   
 2.给予执行权限
   - ```chmod 777 main.sh```
