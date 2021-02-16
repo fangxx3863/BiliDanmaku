@@ -1,6 +1,7 @@
 # BiliDanmaku - 根据SID下载整部番剧的弹幕并转换为ASS输出
 ## 环境要求
 1.Linux系统
+
 2.安装curl、git、python3
 ## 使用方法
 1.下载main.sh脚本
