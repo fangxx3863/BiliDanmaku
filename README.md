@@ -7,9 +7,9 @@
   - ```curl -L https://github.com/fangxx3863/BiliDanmaku/raw/main/main.sh -o main.sh```
   
 2.给予执行权限
-  - chmod 777 main.sh
+  - ```chmod 777 main.sh```
   
 3.运行程序
-  - ./main.sh
+  - ```./main.sh```
   
 4.
