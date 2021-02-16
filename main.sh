@@ -15,8 +15,8 @@ PATH=$PATH:$jqdir
 git clone https://github.com/m13253/danmaku2ass.git
 
 #读入SID
-echo 输入番剧SID
-read sid
+echo 输入番剧CID
+read cid
 
 #读入字体名称
 echo "输入字体名称(留空默认汉仪粗黑简)"
@@ -34,7 +34,7 @@ rm -rf AssOut
 #保存LIST
 mkdir BiliTmp
 cd BiliTmp
-curl "http://bangumi.bilibili.com/web_api/get_ep_list?season_id=$sid" | jq > seasonlist.txt
+curl "http://bangumi.bilibili.com/web_api/get_ep_list?season_id=$cid" | jq > seasonlist.txt
 list=$(cat ./seasonlist.txt)
 echo $list|jq '.result[].cid' > cid.txt
 
