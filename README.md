@@ -10,7 +10,10 @@
 2.给予执行权限
   - ```chmod 777 main.sh```
   
-3.运行程序
+3.打开b站的番剧视频页面，记下链接中ss后的数字
+  - ```https://www.bilibili.com/bangumi/play/ss**844**/?from=search&seid=3312043637264681016```
+
+4.运行程序
   - ```./main.sh```
   
-4.
+
